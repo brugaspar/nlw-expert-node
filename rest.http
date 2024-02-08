@@ -1,0 +1,28 @@
+POST http://localhost:3333/polls
+Content-Type: application/json
+
+{
+  "title": "Qual o melhor framework Node.js?",
+  "options": [
+    "Express",
+    "Fastify",
+    "NestJS",
+    "HapiJS"
+  ]
+}
+
+###
+
+GET http://localhost:3333/polls/8c245eed-12c1-4dea-b438-2a07d17c72a5
+Content-Type: application/json
+
+###
+
+POST http://localhost:3333/polls/8c245eed-12c1-4dea-b438-2a07d17c72a5/votes
+Content-Type: application/json
+
+{
+  "pollOptionId": "0b775b9e-2acd-4611-949d-7e408c4eb79f"
+}
+
+###
