@@ -22,7 +22,7 @@ POST http://localhost:3333/polls/8c245eed-12c1-4dea-b438-2a07d17c72a5/votes
 Content-Type: application/json
 
 {
-  "pollOptionId": "0b775b9e-2acd-4611-949d-7e408c4eb79f"
+  "pollOptionId": "c390e3e1-abcf-4a06-af91-ff43361de18a"
 }
 
 ###
